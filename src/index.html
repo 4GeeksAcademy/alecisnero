@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Generador de Excusas</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -14,25 +14,20 @@
   </head>
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
+      <div class="titulo container bg-light rounded border mt-4">
+        <h1>¡Bienvenido al Generador de Excusa!</h1>
+      </div>
 
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div>
+      <div class="container" style="margin-top: 50px;">
         <button
           class="btn btn-primary"
           type="button" onclick="acumuladorDeGeneradores(generadorwho(), generadoraction(), generadorwhat(), generadorwhen())">Generar Excusa</button>
         </button>
-        <div><p id="excuse"></p></div>
+        <div class="container bg-light rounded border" style="margin-top: 50px;">
+          <p id="excuse" class="fs-4"> ¡Presionar el Botón y genera algo!</p></div>
       </div>
 
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+     
     </div>
 
 
